@@ -9,6 +9,7 @@ function insertText(count?: number): void {
 	const c = count ?? randomInt(4) + 6;
 	const editor = vscode.window.activeTextEditor;
 	if (!editor) {
+		vscode.window.showErrorMessage("There is no active text editor.");
 		return;
 	}
 	editor.edit((edit) =>

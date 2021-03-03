@@ -5,7 +5,7 @@
   "publisher": "HECHTAxel",
   "author": "HECHT Axel",
   "description": "Lorem Barnak is a Visual Studio Code extension. It inserts Quebecer swears inside your code like Lorem Ipsum.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/hecht-a/vscode-lorem-barnak.git"
