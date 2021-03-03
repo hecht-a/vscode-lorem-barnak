@@ -1,10 +1,10 @@
 {
   "name": "lorem-barnak",
-  "displayName": "lorem barnak",
+  "displayName": "Lorem Barnak",
   "icon": "assets/vscode-lorem-barnak.png",
   "publisher": "HECHTAxel",
   "author": "HECHT Axel",
-  "description": "",
+  "description": "Lorem Barnak is a Visual Studio Code extension. It inserts Quebecer swears inside your code like Lorem Ipsum.",
   "version": "0.1.0",
   "repository": {
     "type": "git",
