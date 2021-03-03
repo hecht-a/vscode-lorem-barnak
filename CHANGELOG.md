@@ -30,7 +30,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - `ctrl+; ctrl+z`: insert a paragraph
   - `ctrl+; ctrl+e`: insert multiple paragraphs
 
+# [v1.0.0] - 2021-03-03
+### Stable version
+
+- Define the first stable version
+
 [v0.1.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.1.0
 [v0.1.1]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.1.1
 [v0.2.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.2.0
 [v0.3.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.3.0
+[v1.0.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/1.0.0

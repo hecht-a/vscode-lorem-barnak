@@ -42,10 +42,10 @@ jobs:
 
       - name: Publish on Visual Studio Marketplace
         continue-on-error: true
-        run: yarn deploy-vsce -- --packagePath lorem-barnak.vsix
+        run: yarn deploy-vsce --packagePath lorem-barnak.vsix
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
 
       - name: Publish on Open VSX
         continue-on-error: true
-        run: yarn deploy-ovsx -- lorem-barnak.vsix -p ${{ secrets.OVSX_PAT }}
+        run: yarn deploy-ovsx lorem-barnak.vsix -p ${{ secrets.OVSX_PAT }}
