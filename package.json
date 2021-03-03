@@ -5,7 +5,7 @@
   "publisher": "HECHTAxel",
   "author": "HECHT Axel",
   "description": "Lorem Barnak is a Visual Studio Code extension. It inserts Quebecer swears inside your code like Lorem Ipsum.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/hecht-a/vscode-lorem-barnak.git"
@@ -40,7 +40,43 @@
         "command": "lorem-barnak.multipleParagraphs",
         "title": "Lorem Barnak: Insert multiple paragraphs"
       }
-    ]
+    ],
+    "keybindings": [
+      {
+        "command": "lorem-barnak.line",
+        "key": "ctrl+; ctrl+a",
+        "when": "editorTextFocus && !readonlyEditor"
+      },
+      {
+        "command": "lorem-barnak.paragraph",
+        "key": "ctrl+; ctrl+z",
+        "when": "editorTextFocus && !readonlyEditor"
+      },
+      {
+        "command": "lorem-barnak.multipleParagraphs",
+        "key": "ctrl+; ctrl+e",
+        "when": "editorTextFocus && !readonlyEditor"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "lorem-barnak.line",
+          "group": "LoremBarnak",
+          "when": "editorTextFocus && !readonlyEditor"
+        },
+        {
+          "command": "lorem-barnak.paragraph",
+          "group": "LoremBarnak",
+          "when": "editorTextFocus && !readonlyEditor"
+        },
+        {
+          "command": "lorem-barnak.multipleParagraphs",
+          "group": "LoremBarnak",
+          "when": "editorTextFocus && !readonlyEditor"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "yarn build",

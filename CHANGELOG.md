@@ -21,6 +21,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Added possibility to choose how many paragraphs to generate with a new line after them.
 
+# [v0.3.0] - 2021-03-03
+### Keyboard shortcuts
+
+- Added keyboard shortcuts to insert lorem barnak text.
+- default shortcuts:
+  - `ctrl+; ctrl+a`: insert a line
+  - `ctrl+; ctrl+z`: insert a paragraph
+  - `ctrl+; ctrl+e`: insert multiple paragraphs
+
 [v0.1.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.1.0
 [v0.1.1]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.1.1
 [v0.2.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.2.0
+[v0.3.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.3.0
