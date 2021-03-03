@@ -1,7 +1,10 @@
 name: Publishing
 on:
   release:
-    types: [created]
+    types: 
+      - published
+      - created
+      - edited
 
 jobs:
   build:
