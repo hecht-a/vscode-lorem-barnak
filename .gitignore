@@ -17,3 +17,4 @@ yarn.lock
 vsc-extension-quickstart.md
 CHANGELOG.md
 *.xcf
+*.vsix
