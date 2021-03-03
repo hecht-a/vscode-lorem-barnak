@@ -1,3 +1,5 @@
+# Copyright (c) Mesteery, https://github.com/readthedocs-fr/bin-vscode/blob/main/.github/workflows/publishing.yml
+
 name: Publishing
 on:
   release:
