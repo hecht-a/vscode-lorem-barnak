@@ -1,12 +1,10 @@
-# Copyright (c) Mesteery, https://github.com/readthedocs-fr/bin-vscode/blob/main/.github/workflows/publishing.yml
+# Copyright (c) Read The Docs <opensource@readthedocs.fr>
 
 name: Publishing
 on:
   release:
     types: 
-      - published
       - created
-      - edited
 
 jobs:
   build:

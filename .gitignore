@@ -17,3 +17,4 @@ yarn.lock
 vsc-extension-quickstart.md
 *.xcf
 *.vsix
+token.txt

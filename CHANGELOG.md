@@ -11,4 +11,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Lorem Barnak is a Visual Studio Code extension. It inserts Quebecer swears inside your code like Lorem Ipsum.
 
+# [v0.1.1] - 2021-01-17
+### Error message
+
+- Added error message if there isn't any editor open.
+
 [v0.1.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.1.0
+[v0.1.1]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.1.1
