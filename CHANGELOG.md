@@ -14,7 +14,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 # [v0.1.1] - 2021-03-03
 ### Error message
 
-- Added error message if there isn't any editor open.
+- Added error message if there isn't any editor opened.
 
 # [v0.2.0] - 2021-03-03
 ### Refacto
