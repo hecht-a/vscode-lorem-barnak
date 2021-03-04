@@ -13,7 +13,14 @@ export async function generateMultipleParagraphs(): Promise<void> {
 	let newLine = await window.showQuickPick(["yes", "no"], {
 		placeHolder: "Do you want new line after each paragraph?",
 	});
-	const count = await window.showQuickPick(items, { placeHolder: "How many paragraphs?" });
+	const count = await window.showInputBox({
+		valueSelection: [1, 1],
+		prompt: "How many paragraphs to generate?",
+		placeHolder: "Enter a number",
+		validateInput(value: string) {
+			return !/^\d+$/.test(value) || value === "0" ? "Please enter a valid number and over than 0." : undefined;
+		},
+	});
 	if (!newLine || newLine === undefined) {
 		newLine = "yes";
 	}
