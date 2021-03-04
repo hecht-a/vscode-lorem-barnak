@@ -4,7 +4,7 @@ import { window } from "vscode";
 import { randomInt } from "./randomInt";
 
 export function insertText(count?: number, nbrParagraphs = 1, newLine?: boolean): void {
-	const c = count ?? randomInt(4) + 4;
+	const c = count ?? randomInt(4) + 2;
 	const editor = window.activeTextEditor;
 	if (!editor) {
 		window.showErrorMessage("There is no active text editor.");
