@@ -100,7 +100,6 @@
     "watch": "yarn build --watch",
     "lint": "eslint \"src/**\"",
     "lint:fix": "eslint --fix \"src/**\"",
-    "deploy-vsce": "vsce publish",
     "package": "vsce package --yarn"
   },
   "devDependencies": {

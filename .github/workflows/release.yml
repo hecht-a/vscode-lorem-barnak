@@ -25,7 +25,7 @@ jobs:
       - name: Package extension
         run: yarn package
       - name: Publish extension
-        run: yarn deploy-vsce --yarn --packagePath ./${{ env.PACKAGE_NAME }}.vsix -p ${{ secrets.VSCE_PAT }}
+        run: yarn vsce publish --yarn --packagePath ./${{ env.PACKAGE_NAME }}.vsix -p ${{ secrets.VSCE_PAT }}
       - name: Create GitHub release
         id: create_release
         uses: actions/create-release@v1
