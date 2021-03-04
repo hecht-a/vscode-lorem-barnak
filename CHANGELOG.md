@@ -35,8 +35,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Define the first stable version
 
+# [v1.1.0] - 2021-03-04
+### UI modifications
+
+- Added submenu for lorem barnak functionalities (right click > Lorem Barnak)
+- Added possibility to choose if you want multiline paragraphs or one line paragraph with functionality `insert multiple paragraphs`
+
 [v0.1.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.1.0
 [v0.1.1]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.1.1
 [v0.2.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.2.0
 [v0.3.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/0.3.0
 [v1.0.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/1.0.0
+[v1.1.0]: https://github.com/hecht-a/vscode-lorem-barnak/releases/tag/1.1.0

@@ -4,7 +4,7 @@ import { window } from "vscode";
 import { randomInt } from "./randomInt";
 
 export function insertText(count?: number, nbrParagraphs = 1, newLine?: boolean): void {
-	const c = count ?? randomInt(4) + 6;
+	const c = count ?? randomInt(4) + 4;
 	const editor = window.activeTextEditor;
 	if (!editor) {
 		window.showErrorMessage("There is no active text editor.");
@@ -18,7 +18,7 @@ export function insertText(count?: number, nbrParagraphs = 1, newLine?: boolean)
 					// eslint-disable-next-line @typescript-eslint/no-unused-expressions
 					newLine
 						? edit.insert(selection.start, `${getText(c)}\n`)
-						: edit.insert(selection.start, getText(c));
+						: edit.insert(selection.start, `${getText(c)} `);
 				}
 			} else {
 				edit.insert(selection.start, getText(c));
