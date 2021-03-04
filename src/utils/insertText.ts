@@ -13,7 +13,7 @@ export function insertText(count?: number, nbrParagraphs = 1, newLine?: boolean)
 	editor.edit((edit) =>
 		editor.selections.forEach((selection) => {
 			edit.delete(selection);
-			if (nbrParagraphs !== undefined && nbrParagraphs > 0) {
+			if (nbrParagraphs !== undefined && nbrParagraphs) {
 				for (let i = 0; i < nbrParagraphs; i++) {
 					// eslint-disable-next-line @typescript-eslint/no-unused-expressions
 					newLine
